@@ -1,0 +1,217 @@
+
+/* .instrument-sans-<uniquifier> {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+
+
+/* .changa-one-regular-italic {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+} */
+
+/*.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+
+
+
+
+
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background:rgb(232, 226, 212);
+
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* makes it pop */;
+}
+
+.logo{
+  height:90px;
+}
+
+nav{
+  margin-right:80px;
+}
+
+
+nav a{
+  margin-left: 50px;
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+ font-family: "Monsieur La Doulaise", cursive;
+ font-size:25px ;
+}
+
+
+body{
+  background-image: url("../../website background.jpg");
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+}
+
+.plus{ 
+  background-color:rgb(179, 177, 165) ;
+font-size: 50px;
+font-family: "Instrument Sans", sans-serif;
+padding: 5px 10px;
+display: block;
+border: none;
+border-radius: 10px;
+transition: background-color 0.3s ease-in;
+height: 70px;
+width: 63px;
+position: absolute;
+  left: 65px;   /* X position */
+  top: 225px;    /* Y position */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* makes it pop */;
+
+}
+
+.plus:hover{ 
+  background-color:rgb(156, 154, 143) ;
+  cursor: pointer;
+}
+
+
+
+.minus{
+   background-color:rgb(179, 177, 165);
+  font-size: 40px;
+  font-family:"Instrument Sans", sans-serif ;
+  padding: 5px 10px;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in;
+  height: 70px;
+width: 63px;
+position: absolute;
+  left: 190px;   /* X position */
+  top: 225px;    /* Y position */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* makes it pop */;
+
+}
+
+
+
+.minus:hover{ 
+  background-color:rgb(156, 154, 143);
+  cursor: pointer;
+}
+
+.enter{
+  background-color:rgb(179, 177, 165);
+  font-size: 50px;
+  font-family: "Changa One", sans-serif;
+  padding: 5px 10px;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in;
+  width: 187px;
+  height: 70px;
+  position: absolute;
+  left: 65px;   /* X position */
+  top: 310px;    /* Y position */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* makes it pop */;
+
+}
+
+.enter:hover{
+  background-color:rgb(156, 154, 143);
+  cursor:pointer
+}
+
+
+h1{
+    color:black; 
+    font-size: 40px; 
+    font-family:"Changa One", sans-serif ; 
+  
+}
+
+h2{
+  color: black; 
+  font-size: 25px; 
+  font-family:  "Instrument Sans", sans-serif;
+  
+}
+
+.Top-txt{
+  margin-top: 120px;
+  margin-left: 70px;
+  line-height: 20px;
+}
+
+.presale{
+  margin-top: 30px;
+  margin-left: 65px;
+}
+
+.phone{
+  margin-top: 40px ;
+  margin-left: 93px;
+}
+
+.Number{
+  margin-left:93px ;
+}
+
+
+.sign-up{
+  background-color:rgb(128, 126, 115);
+  font-size: 40px;
+  font-family: "Changa One", sans-serif;
+  padding: 5px 10px;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in;
+  width: 187px;
+  height: 70px;
+ position: absolute;
+  left: 750px;   /* X position */
+  top: 410px;    /* Y position */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.491); /* makes it pop */;
+}
+
+.sign-up:hover{
+background-color:rgb(93, 92, 84);
+  cursor:pointer 
+
+}
+
+.rectangle{
+  width: 964px;
+  height: 507px;
+  background-color: rgb(197, 193, 182);
+  /* Position at specific coordinates */
+  position: absolute;
+  left: 250px;  /* x position */
+  top: 260px;   /* y position */
+  border-radius: 20px;
+  opacity: 90%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* makes it pop */;
+}
+
+
+
